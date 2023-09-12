@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------navbar logo----------- */
+.navbar-brand {
+    padding: 13px 27px;
+}
+
+/* ------------navbar------------ */
+.navbar {
+    margin: 20px 2px;
+}
+
+/* ------------Slider------------ */
+.carousel-inner {
+    height: 500px;
+    width: 100%;
+
+}
+.navbar{
+
+    color: black;
+}
+
+/* Button animations */
+.collapse ul li:hover {
+
+    animation: buttonshake 200ms 2;
+    font-size: 30px;
+}
+
+@keyframes buttonshake {
+
+    0% 100% {
+        translate: 0
+    }
+
+    10% {
+        translate: 0.200rem;
+    }
+
+    100% {
+        translate: -0.200rem;
+    }
+    
+}
+
+.cardsec {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+
+}
+
+.card {
+
+    width: 23%;
+    margin: 20px auto;
+    
+}
+h2:hover{
+
+    animation: buttonshake 200ms 2;
+        color: blue;
+       
+}
+
+.card:hover{
+    animation: buttonshake 200ms 2;
+    border: 4px solid;
+}
