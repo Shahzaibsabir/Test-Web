@@ -11,6 +11,17 @@ function login()
 		{
         	alert("enter the password");
 		}
+--------------------------------------------
+			else if(!filter.test(uname))
+		{
+			alert("Enter valid email id.");
+		}
+		else if(pwd.length < 6 || pwd.length > 6)
+		{
+			alert("Password min and max length is 6.");
+		}
+		else
+		{
 
 	
 
