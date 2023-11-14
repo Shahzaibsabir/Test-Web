@@ -22,6 +22,8 @@ function login()
 		}
 		else
 		{
-
+	alert('Thank You for Login & You are Redirecting to Campuslife Website');
+  //Redirecting to other page or webste code or you can set your own html page.
+      	
 	
 
