@@ -24,6 +24,15 @@ function login()
 		{
 	alert('Thank You for Login & You are Redirecting to Campuslife Website');
   //Redirecting to other page or webste code or you can set your own html page.
+			 window.location = "https://www.campuslife.co.in";
+			}
+	}
+	//Reset Inputfield code.
+	function clearFunc()
+	{
+		document.getElementById("email").value="";
+		document.getElementById("pwd1").value="";
+	}
       	
 	
 
