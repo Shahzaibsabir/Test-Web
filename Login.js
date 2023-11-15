@@ -26,7 +26,14 @@ function login()
 			 window.location = "https://www.campuslife.co.in";
 			}
 
-
+	}
+	//Reset Inputfield code.
+	function clearFunc()
+	{
+		document.getElementById("email").value="";
+		document.getElementById("pwd1").value="";
+	}
+======================================================================
 
 function login()
 	{
