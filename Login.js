@@ -12,7 +12,19 @@ function login()
         	alert("enter the password");
 		}
 --------------------------------------------
-
+{
+			alert("Enter valid email id.");
+		}
+		else if(pwd.length < 6 || pwd.length > 6)
+		{
+			alert("Password min and max length is 6.");
+		}
+		else
+		{
+	alert('Thank You for Login & You are Redirecting to Campuslife Website');
+  //Redirecting to other page or webste code or you can set your own html page.
+			 window.location = "https://www.campuslife.co.in";
+			}
 
 
 
