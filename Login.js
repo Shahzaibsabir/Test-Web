@@ -71,5 +71,13 @@ function login()
 		document.getElementById("pwd1").value="";
 	}
       	
+
+function clearFunc()
+	{
+		document.getElementById("email").value="";
+		document.getElementById("pwd1").value="";
+	}
+      	
 	
+
 
