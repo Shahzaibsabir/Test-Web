@@ -6,6 +6,7 @@ function login()
 		if(uname =='')
 		{
 			alert("please enter user name.");
+			alert("please enter user name.");
 		}
 		else if(pwd=='')
 		{
